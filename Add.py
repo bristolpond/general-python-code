@@ -9,5 +9,11 @@ class Add():
   def add(self, var1, var2):
     return var1+var2
 
+class Add3(Add):
+  def add3(self, var1, var2, var3):
+    return var1+var2+var3
+  
 aclass = Add()
 print '1+2=',aclass.add(1,2)
+anclass = Add3()
+print '1+2',anclass.add(1,2)
